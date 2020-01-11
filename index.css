@@ -1,0 +1,46 @@
+        @import url('https://fonts.googleapis.com/css?family=Capriola&display=swap');
+
+        html {
+            background-attachment: scroll;
+            background-size: cover;
+            background-image: url('https://images.pexels.com/photos/3060266/pexels-photo-3060266.jpeg');
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(0, 0, 0, 0.4);
+            align-content: center;
+            justify-content: center;
+            margin: auto;
+
+            flex-flow: row wrap;
+
+            justify-content: space-around;
+        }
+
+
+
+
+        .description {
+            font-family: 'Libre Baskerville', sans-serif;
+            font-size: 4em;
+            padding-left: 2em;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Capriola', sans-serif;
+            font-size: 40pt;
+        }
+
+        footer {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
